@@ -131,11 +131,11 @@ $config = array(
     | upload dir will be ftp_base_folder + upload_dir so without final /
     |
     */
-    'ftp_host'         => false, //put the FTP host
+    'ftp_host'         => '128.199.156.36', //put the FTP host
     'ftp_user'         => "user",
-    'ftp_pass'         => "pass",
+    'ftp_pass'         => "yoljasron1221Jas",
     'ftp_base_folder'  => "base_folder",
-    'ftp_base_url'     => "http://site to ftp root",
+    'ftp_base_url'     => "https://www.chefs.uz to ftp root",
     // Directory where place files before to send to FTP with final /
     'ftp_temp_folder'  => "../temp/",
     /*
