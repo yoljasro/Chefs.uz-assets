@@ -131,29 +131,7 @@ $config = array(
     | upload dir will be ftp_base_folder + upload_dir so without final /
     |
     */
-    'ftp_host'         => false, //put the FTP host
-    'ftp_user'         => "user",
-    'ftp_pass'         => "pass",
-    'ftp_base_folder'  => "base_folder",
-    'ftp_base_url'     => "http://site to ftp root",
-    // Directory where place files before to send to FTP with final /
-    'ftp_temp_folder'  => "../temp/",
-    /*
-    |---------------------------------------------------------------------------
-    | path from ftp_base_folder to base of thumbs folder with start and final /
-    |---------------------------------------------------------------------------
-    */
-    'ftp_thumbs_dir' => '/thumbs/',
-    'ftp_ssl' => false,
-    'ftp_port' => 21,
-
-    /* EXAMPLE
-    'ftp_host'         => "host.com",
-    'ftp_user'         => "test@host.com",
-    'ftp_pass'         => "pass.1",
-    'ftp_base_folder'  => "",
-    'ftp_base_url'     => "http://host.com/testFTP",
-    */
+ 
 
     /*
     |--------------------------------------------------------------------------
